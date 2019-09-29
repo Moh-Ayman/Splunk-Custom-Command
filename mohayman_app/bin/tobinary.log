@@ -1,0 +1,1280 @@
+
+main started
+keywords: ['How many users are there in Integration list ?']
+options: {}
+QuestionsQueries: UsersIntList
+keywords[0]: How many users are there in Integration list ?
+ExecuteQuery Started
+ExecuteQuery - Authenticate with server
+ExecuteQuery - Remove leading and trailing whitespace from the search
+ExecuteQuery - If the query doesn't already start with the 'search' operator or another
+ExecuteQuery - Run the search
+ExecuteQuery - Get the search status
+ExecuteQuery - Get the search results
+ExecuteQuery Finished
+ExecuteQuery: 0
+ExecuteQuery Started
+ExecuteQuery - Authenticate with server
+ExecuteQuery - Remove leading and trailing whitespace from the search
+ExecuteQuery - If the query doesn't already start with the 'search' operator or another
+ExecuteQuery - Run the search
+ExecuteQuery - Get the search status
+ExecuteQuery - Get the search results
+ExecuteQuery Finished
+GetQuery: |inputlookup IntegrationListusers.csv | stats count(user)
+
+main started
+keywords: ['help']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24<type 'str'>
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24<type 'int'>
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24<type 'int'>
+11000
+OutputofQuery: 11000
+decimalToBinary Started
+24<type 'int'>
+11000
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24<type 'int'>
+11000
+OutputofQuery: 11000
+decimalToBinary Started
+24<type 'int'>
+11000
+
+main started
+keywords: ['24']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 24
+decimalToBinary Started
+24<type 'int'>
+11000
+OutputofQuery: 11000
+decimalToBinary Started
+24<type 'int'>
+11000
+
+main started
+keywords: ['16']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 16
+decimalToBinary Started
+16<type 'int'>
+10000
+OutputofQuery: 10000
+decimalToBinary Started
+16<type 'int'>
+10000
+
+main started
+keywords: ['456']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 456
+decimalToBinary Started
+456<type 'int'>
+111001000
+OutputofQuery: 111001000
+decimalToBinary Started
+456<type 'int'>
+111001000
+
+main started
+keywords: ['456']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: 456
+decimalToBinary Started
+456<type 'int'>
+111001000
+OutputofQuery: 111001000
+decimalToBinary Started
+456<type 'int'>
+111001000
+
+main started
+keywords: ['sourcetype']
+options: {}
+QueryExecuted: |asksplunk "help"
+keywords[0]: sourcetype
+decimalToBinary Started
+[{'sourcetype': 'mongod', 'count': '112'}, {'sourcetype': 'scheduler', 'count': '32'}, {'sourcetype': 'splunk_web_access', 'count': '54'}, {'sourcetype': 'splunk_web_service', 'count': '195'}, {'sourcetype': 'splunkd', 'count': '7493'}, {'sourcetype': 'splunkd_access', 'count': '249'}, {'sourcetype': 'splunkd_conf', 'count': '1'}, {'sourcetype': 'splunkd_ui_access', 'count': '634'}][]{'splunkVersion': '7.3.0', 'allowStream': '1', 'truncated': '0', 'keywords': '"""index::_internal"" "', 'sid': '1564498866.20', 'realtime': '0', 'search': 'search index=_internal | stats count by sourcetype | ml sourcetype', 'preview': '0'}
+['sourcetype']{}
+{'sourcetype': 'mongod', 'count': '112'}
+[{'sourcetype': 'mongod', 'count': '112'}, {'sourcetype': 'scheduler', 'count': '35'}, {'sourcetype': 'splunk_web_access', 'count': '58'}, {'sourcetype': 'splunk_web_service', 'count': '195'}, {'sourcetype': 'splunkd', 'count': '8443'}, {'sourcetype': 'splunkd_access', 'count': '264'}, {'sourcetype': 'splunkd_conf', 'count': '1'}, {'sourcetype': 'splunkd_ui_access', 'count': '711'}][]{'keywords': '"""index::_internal"" "', 'realtime': '0', 'allowStream': '1', 'preview': '0', 'splunkVersion': '7.3.0', 'sid': '1564499065.30', 'search': 'search index=_internal | stats count by sourcetype | ml sourcetype', 'truncated': '0'}
+['sourcetype']{}
+{'sourcetype': 'mongod', 'count': '112'}
+[{'sourcetype': 'mongod', 'count': '112'}, {'sourcetype': 'scheduler', 'count': '35'}, {'sourcetype': 'splunk_web_access', 'count': '58'}, {'sourcetype': 'splunk_web_service', 'count': '195'}, {'sourcetype': 'splunkd', 'count': '8443'}, {'sourcetype': 'splunkd_access', 'count': '265'}, {'sourcetype': 'splunkd_conf', 'count': '1'}, {'sourcetype': 'splunkd_ui_access', 'count': '727'}][]{'realtime': '0', 'keywords': '"""index::_internal"" "', 'preview': '0', 'splunkVersion': '7.3.0', 'allowStream': '1', 'sid': '1564499069.31', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'truncated': '0'}
+['count']{}
+{'sourcetype': 'mongod', 'count': '112'}
+
+process_events() Started
+[{'sourcetype': 'mongod', 'count': '112'}, {'sourcetype': 'scheduler', 'count': '38'}, {'sourcetype': 'splunk_web_access', 'count': '60'}, {'sourcetype': 'splunk_web_service', 'count': '195'}, {'sourcetype': 'splunkd', 'count': '9402'}, {'sourcetype': 'splunkd_access', 'count': '276'}, {'sourcetype': 'splunkd_conf', 'count': '1'}, {'sourcetype': 'splunkd_ui_access', 'count': '790'}][]{'realtime': '0', 'preview': '0', 'truncated': '0', 'keywords': '"""index::_internal"" "', 'sid': '1564499238.41', 'allowStream': '1', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'splunkVersion': '7.3.0'}
+['count']{}
+{'sourcetype': 'mongod', 'count': '112'}
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '112'}, {'sourcetype': 'scheduler', 'count': '42'}, {'sourcetype': 'splunk_web_access', 'count': '64'}, {'sourcetype': 'splunk_web_service', 'count': '195'}, {'sourcetype': 'splunkd', 'count': '10523'}, {'sourcetype': 'splunkd_access', 'count': '294'}, {'sourcetype': 'splunkd_conf', 'count': '1'}, {'sourcetype': 'splunkd_ui_access', 'count': '884'}]
+dummy results: []
+settings: {'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'preview': '0', 'realtime': '0', 'keywords': '"""index::_internal"" "', 'sid': '1564499465.55', 'allowStream': '1', 'truncated': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '112'}
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '227'}, {'sourcetype': 'scheduler', 'count': '60'}, {'sourcetype': 'splunk_web_access', 'count': '111'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '15462'}, {'sourcetype': 'splunkd_access', 'count': '401'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '1189'}]
+dummy results: []
+settings: {'keywords': '"""index::_internal"" "', 'realtime': '0', 'allowStream': '1', 'preview': '0', 'splunkVersion': '7.3.0', 'sid': '1564500355.27', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'truncated': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '227'}
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '227'}, {'sourcetype': 'scheduler', 'count': '61'}, {'sourcetype': 'splunk_web_access', 'count': '111'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '15627'}, {'sourcetype': 'splunkd_access', 'count': '404'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '1208'}]
+dummy results: []
+settings: {'preview': '0', 'truncated': '0', 'keywords': '"""index::_internal"" "', 'realtime': '0', 'allowStream': '1', 'sid': '1564500389.31', 'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by sourcetype | ml count'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '227'}
+
+process_events() Started
+results: [{'count': '230', 'sourcetype': 'mongod'}, {'count': '71', 'sourcetype': 'scheduler'}, {'count': '122', 'sourcetype': 'splunk_web_access'}, {'count': '388', 'sourcetype': 'splunk_web_service'}, {'count': '18845', 'sourcetype': 'splunkd'}, {'count': '447', 'sourcetype': 'splunkd_access'}, {'count': '2', 'sourcetype': 'splunkd_conf'}, {'count': '1419', 'sourcetype': 'splunkd_ui_access'}]
+dummy results: []
+settings: {'preview': '0', 'allowStream': '1', 'sid': '1564501011.62', 'splunkVersion': '7.3.0', 'realtime': '0', 'truncated': '0', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'keywords': '"""index::_internal"" "'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '230'}, {'sourcetype': 'scheduler', 'count': '72'}, {'sourcetype': 'splunk_web_access', 'count': '122'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '19000'}, {'sourcetype': 'splunkd_access', 'count': '450'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '1435'}]
+dummy results: []
+settings: {'sid': '1564501032.66', 'realtime': '0', 'allowStream': '1', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'truncated': '0', 'splunkVersion': '7.3.0', 'keywords': '"""index::_internal"" "', 'preview': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '230'}, {'sourcetype': 'scheduler', 'count': '72'}, {'sourcetype': 'splunk_web_access', 'count': '123'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '19165'}, {'sourcetype': 'splunkd_access', 'count': '453'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '1458'}]
+dummy results: []
+settings: {'keywords': '"""index::_internal"" "', 'realtime': '0', 'splunkVersion': '7.3.0', 'sid': '1564501069.67', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'truncated': '0', 'allowStream': '1', 'preview': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+result[fields]: 230
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '230'}, {'sourcetype': 'scheduler', 'count': '96'}, {'sourcetype': 'splunk_web_access', 'count': '146'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '26403'}, {'sourcetype': 'splunkd_access', 'count': '549'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '1909'}]
+dummy results: []
+settings: {'realtime': '0', 'allowStream': '1', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'truncated': '0', 'sid': '1564502465.142', 'keywords': '"""index::_internal"" "', 'preview': '0', 'splunkVersion': '7.3.0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+result[fields]: 230
+decimalToBinary Started
+230<type 'int'>
+11100110
+
+result: {'sourcetype': 'scheduler', 'count': '96'}
+
+result[fields]: 96
+decimalToBinary Started
+96<type 'int'>
+1100000
+
+result: {'sourcetype': 'splunk_web_access', 'count': '146'}
+
+result[fields]: 146
+decimalToBinary Started
+146<type 'int'>
+10010010
+
+result: {'sourcetype': 'splunk_web_service', 'count': '388'}
+
+result[fields]: 388
+decimalToBinary Started
+388<type 'int'>
+110000100
+
+result: {'sourcetype': 'splunkd', 'count': '26403'}
+
+result[fields]: 26403
+decimalToBinary Started
+26403<type 'int'>
+110011100100011
+
+result: {'sourcetype': 'splunkd_access', 'count': '549'}
+
+result[fields]: 549
+decimalToBinary Started
+549<type 'int'>
+1000100101
+
+result: {'sourcetype': 'splunkd_conf', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'sourcetype': 'splunkd_ui_access', 'count': '1909'}
+
+result[fields]: 1909
+decimalToBinary Started
+1909<type 'int'>
+11101110101
+
+process_events() Started
+results: [{'count': '230', 'sourcetype': 'mongod'}, {'count': '97', 'sourcetype': 'scheduler'}, {'count': '149', 'sourcetype': 'splunk_web_access'}, {'count': '388', 'sourcetype': 'splunk_web_service'}, {'count': '26726', 'sourcetype': 'splunkd'}, {'count': '555', 'sourcetype': 'splunkd_access'}, {'count': '2', 'sourcetype': 'splunkd_conf'}, {'count': '1956', 'sourcetype': 'splunkd_ui_access'}]
+dummy results: []
+settings: {'keywords': '"""index::_internal"" "', 'truncated': '0', 'realtime': '0', 'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'sid': '1564502523.147', 'allowStream': '1', 'preview': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+result[fields]: 230
+decimalToBinary Started
+230<type 'int'>
+11100110
+
+result: {'sourcetype': 'scheduler', 'count': '97'}
+
+result[fields]: 97
+decimalToBinary Started
+97<type 'int'>
+1100001
+
+result: {'sourcetype': 'splunk_web_access', 'count': '149'}
+
+result[fields]: 149
+decimalToBinary Started
+149<type 'int'>
+10010101
+
+result: {'sourcetype': 'splunk_web_service', 'count': '388'}
+
+result[fields]: 388
+decimalToBinary Started
+388<type 'int'>
+110000100
+
+result: {'sourcetype': 'splunkd', 'count': '26726'}
+
+result[fields]: 26726
+decimalToBinary Started
+26726<type 'int'>
+110100001100110
+
+result: {'sourcetype': 'splunkd_access', 'count': '555'}
+
+result[fields]: 555
+decimalToBinary Started
+555<type 'int'>
+1000101011
+
+result: {'sourcetype': 'splunkd_conf', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'sourcetype': 'splunkd_ui_access', 'count': '1956'}
+
+result[fields]: 1956
+decimalToBinary Started
+1956<type 'int'>
+11110100100
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '230'}, {'sourcetype': 'scheduler', 'count': '98'}, {'sourcetype': 'splunk_web_access', 'count': '150'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '27050'}, {'sourcetype': 'splunkd_access', 'count': '562'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '2017'}]
+dummy results: []
+settings: {'truncated': '0', 'keywords': '"""index::_internal"" "', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'realtime': '0', 'sid': '1564502593.153', 'splunkVersion': '7.3.0', 'allowStream': '1', 'preview': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+result[fields]: 230
+decimalToBinary Started
+230<type 'int'>
+11100110
+
+result: {'sourcetype': 'scheduler', 'count': '98'}
+
+result[fields]: 98
+decimalToBinary Started
+98<type 'int'>
+1100010
+
+result: {'sourcetype': 'splunk_web_access', 'count': '150'}
+
+result[fields]: 150
+decimalToBinary Started
+150<type 'int'>
+10010110
+
+result: {'sourcetype': 'splunk_web_service', 'count': '388'}
+
+result[fields]: 388
+decimalToBinary Started
+388<type 'int'>
+110000100
+
+result: {'sourcetype': 'splunkd', 'count': '27050'}
+
+result[fields]: 27050
+decimalToBinary Started
+27050<type 'int'>
+110100110101010
+
+result: {'sourcetype': 'splunkd_access', 'count': '562'}
+
+result[fields]: 562
+decimalToBinary Started
+562<type 'int'>
+1000110010
+
+result: {'sourcetype': 'splunkd_conf', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'sourcetype': 'splunkd_ui_access', 'count': '2017'}
+
+result[fields]: 2017
+decimalToBinary Started
+2017<type 'int'>
+11111100001
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '230'}, {'sourcetype': 'scheduler', 'count': '113'}, {'sourcetype': 'splunk_web_access', 'count': '165'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '31708'}, {'sourcetype': 'splunkd_access', 'count': '623'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '2316'}]
+dummy results: []
+settings: {'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by sourcetype | ml count', 'truncated': '0', 'keywords': '"""index::_internal"" "', 'sid': '1564503488.201', 'realtime': '0', 'allowStream': '1', 'preview': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+result[fields]: 230
+decimalToBinary Started
+230<type 'int'>
+11100110
+
+result: {'sourcetype': 'scheduler', 'count': '113'}
+
+result[fields]: 113
+decimalToBinary Started
+113<type 'int'>
+1110001
+
+result: {'sourcetype': 'splunk_web_access', 'count': '165'}
+
+result[fields]: 165
+decimalToBinary Started
+165<type 'int'>
+10100101
+
+result: {'sourcetype': 'splunk_web_service', 'count': '388'}
+
+result[fields]: 388
+decimalToBinary Started
+388<type 'int'>
+110000100
+
+result: {'sourcetype': 'splunkd', 'count': '31708'}
+
+result[fields]: 31708
+decimalToBinary Started
+31708<type 'int'>
+111101111011100
+
+result: {'sourcetype': 'splunkd_access', 'count': '623'}
+
+result[fields]: 623
+decimalToBinary Started
+623<type 'int'>
+1001101111
+
+result: {'sourcetype': 'splunkd_conf', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'sourcetype': 'splunkd_ui_access', 'count': '2316'}
+
+result[fields]: 2316
+decimalToBinary Started
+2316<type 'int'>
+100100001100
+
+process_events() Started
+results: [{'sourcetype': 'mongod', 'count': '230'}, {'sourcetype': 'scheduler', 'count': '113'}, {'sourcetype': 'splunk_web_access', 'count': '165'}, {'sourcetype': 'splunk_web_service', 'count': '388'}, {'sourcetype': 'splunkd', 'count': '31873'}, {'sourcetype': 'splunkd_access', 'count': '625'}, {'sourcetype': 'splunkd_conf', 'count': '2'}, {'sourcetype': 'splunkd_ui_access', 'count': '2349'}]
+dummy results: []
+settings: {'truncated': '0', 'keywords': '"""index::_internal"" "', 'preview': '0', 'allowStream': '1', 'realtime': '0', 'splunkVersion': '7.3.0', 'sid': '1564503514.203', 'search': 'search index=_internal | stats count by sourcetype | ml count'}
+
+fields: ['count']
+argvals: {}
+
+result: {'sourcetype': 'mongod', 'count': '230'}
+
+result[fields]: 230
+decimalToBinary Started
+230<type 'int'>
+11100110
+
+result: {'sourcetype': 'scheduler', 'count': '113'}
+
+result[fields]: 113
+decimalToBinary Started
+113<type 'int'>
+1110001
+
+result: {'sourcetype': 'splunk_web_access', 'count': '165'}
+
+result[fields]: 165
+decimalToBinary Started
+165<type 'int'>
+10100101
+
+result: {'sourcetype': 'splunk_web_service', 'count': '388'}
+
+result[fields]: 388
+decimalToBinary Started
+388<type 'int'>
+110000100
+
+result: {'sourcetype': 'splunkd', 'count': '31873'}
+
+result[fields]: 31873
+decimalToBinary Started
+31873<type 'int'>
+111110010000001
+
+result: {'sourcetype': 'splunkd_access', 'count': '625'}
+
+result[fields]: 625
+decimalToBinary Started
+625<type 'int'>
+1001110001
+
+result: {'sourcetype': 'splunkd_conf', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'sourcetype': 'splunkd_ui_access', 'count': '2349'}
+
+result[fields]: 2349
+decimalToBinary Started
+2349<type 'int'>
+100100101101
+
+process_events() Started
+results: [{'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\conf.log', 'count': '33'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log', 'count': '7581'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log', 'count': '2'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log', 'count': '132663'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log.1', 'count': '144'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\mongod.log', 'count': '3907'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log', 'count': '659'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd-utility.log', 'count': '429'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log', 'count': '27173'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log', 'count': '4385'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log', 'count': '7487'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log', 'count': '806'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log', 'count': '6521'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\watchdog\\watchdog.log', 'count': '132'}]
+dummy results: []
+settings: {'sid': '1564827427.21', 'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by source | ml count', 'preview': '1', 'allowStream': '1', 'truncated': '0', 'keywords': '"""index::_internal"" "', 'realtime': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'count': '33', 'source': 'C:\Program Files\Splunk\var\log\splunk\conf.log'}
+
+result[fields]: 33
+decimalToBinary Started
+33<type 'int'>
+100001
+
+result: {'count': '7581', 'source': 'C:\Program Files\Splunk\var\log\splunk\health.log'}
+
+result[fields]: 7581
+decimalToBinary Started
+7581<type 'int'>
+1110110011101
+
+result: {'count': '2', 'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'count': '132663', 'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log'}
+
+result[fields]: 132663
+decimalToBinary Started
+132663<type 'int'>
+100000011000110111
+
+result: {'count': '144', 'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log.1'}
+
+result[fields]: 144
+decimalToBinary Started
+144<type 'int'>
+10010000
+
+result: {'count': '3907', 'source': 'C:\Program Files\Splunk\var\log\splunk\mongod.log'}
+
+result[fields]: 3907
+decimalToBinary Started
+3907<type 'int'>
+111101000011
+
+result: {'count': '659', 'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log'}
+
+result[fields]: 659
+decimalToBinary Started
+659<type 'int'>
+1010010011
+
+result: {'count': '429', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log'}
+
+result[fields]: 429
+decimalToBinary Started
+429<type 'int'>
+110101101
+
+process_events() Started
+
+result: {'count': '27173', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log'}
+
+result[fields]: 27173
+decimalToBinary Started
+27173<type 'int'>
+110101000100101
+
+result: {'count': '4385', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log'}
+
+result[fields]: 4385
+decimalToBinary Started
+4385<type 'int'>
+1000100100001
+
+result: {'count': '7487', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log'}
+results: [{'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\conf.log', 'count': '33'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log', 'count': '9141'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log', 'count': '2'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log', 'count': '159529'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log.1', 'count': '144'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\mongod.log', 'count': '3936'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log', 'count': '760'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd-utility.log', 'count': '429'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log', 'count': '27758'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log', 'count': '4648'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log', 'count': '7858'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log', 'count': '835'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log', 'count': '6528'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\watchdog\\watchdog.log', 'count': '132'}]
+dummy results: []
+settings: {'keywords': '"""index::_internal"" "', 'truncated': '0', 'realtime': '0', 'splunkVersion': '7.3.0', 'sid': '1564827427.21', 'allowStream': '1', 'search': 'search index=_internal | stats count by source | ml count', 'preview': '0'}
+
+result[fields]: 7487
+decimalToBinary Started
+7487<type 'int'>
+1110100111111
+
+result: {'count': '806', 'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log'}
+
+result[fields]: 806
+decimalToBinary Started
+806<type 'int'>
+1100100110
+
+result: {'count': '6521', 'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log'}
+
+result[fields]: 6521
+
+fields: ['count']
+argvals: {}
+decimalToBinary Started
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\conf.log', 'count': '33'}
+6521<type 'int'>
+
+result[fields]: 33
+decimalToBinary Started
+33<type 'int'>
+
+result: {'count': '132', 'source': 'C:\Program Files\Splunk\var\log\watchdog\watchdog.log'}
+100001
+[fields]: 132
+decimalToBinary Started
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\health.log', 'count': '9141'}
+
+result[fields]: 9141
+decimalToBinary Started
+10000100
+9141<type 'int'>
+10001110110101
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log', 'count': '159529'}
+
+result[fields]: 159529
+decimalToBinary Started
+159529<type 'int'>
+100110111100101001
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log.1', 'count': '144'}
+
+result[fields]: 144
+decimalToBinary Started
+144<type 'int'>
+10010000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\mongod.log', 'count': '3936'}
+
+result[fields]: 3936
+decimalToBinary Started
+3936<type 'int'>
+111101100000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log', 'count': '760'}
+
+result[fields]: 760
+decimalToBinary Started
+760<type 'int'>
+1011111000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log', 'count': '429'}
+
+result[fields]: 429
+decimalToBinary Started
+429<type 'int'>
+110101101
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log', 'count': '27758'}
+
+result[fields]: 27758
+decimalToBinary Started
+27758<type 'int'>
+110110001101110
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log', 'count': '4648'}
+
+result[fields]: 4648
+decimalToBinary Started
+4648<type 'int'>
+1001000101000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log', 'count': '7858'}
+
+result[fields]: 7858
+decimalToBinary Started
+7858<type 'int'>
+1111010110010
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log', 'count': '835'}
+
+result[fields]: 835
+decimalToBinary Started
+835<type 'int'>
+1101000011
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log', 'count': '6528'}
+
+result[fields]: 6528
+decimalToBinary Started
+6528<type 'int'>
+1100110000000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\watchdog\watchdog.log', 'count': '132'}
+
+result[fields]: 132
+decimalToBinary Started
+132<type 'int'>
+10000100
+
+process_events() Started
+results: [{'count': '34', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\conf.log'}, {'count': '7821', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log'}, {'count': '2', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log'}, {'count': '136572', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log'}, {'count': '144', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log.1'}, {'count': '4010', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\mongod.log'}, {'count': '675', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log'}, {'count': '442', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd-utility.log'}, {'count': '27833', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log'}, {'count': '4506', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log'}, {'count': '7649', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log'}, {'count': '828', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log'}, {'count': '6716', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log'}, {'count': '136', 'source': 'C:\\Program Files\\Splunk\\var\\log\\watchdog\\watchdog.log'}]
+dummy results: []
+settings: {'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by source | tobinary count', 'allowStream': '1', 'truncated': '0', 'realtime': '0', 'preview': '1', 'keywords': '"""index::_internal"" "', 'sid': '1564827600.2'}
+
+fields: ['count']
+argvals: {}
+
+result: {'count': '34', 'source': 'C:\Program Files\Splunk\var\log\splunk\conf.log'}
+
+result[fields]: 34
+decimalToBinary Started
+34<type 'int'>
+100010
+
+result: {'count': '7821', 'source': 'C:\Program Files\Splunk\var\log\splunk\health.log'}
+
+result[fields]: 7821
+decimalToBinary Started
+7821<type 'int'>
+1111010001101
+
+result: {'count': '2', 'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'count': '136572', 'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log'}
+
+result[fields]: 136572
+decimalToBinary Started
+136572<type 'int'>
+100001010101111100
+
+result: {'count': '144', 'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log.1'}
+
+result[fields]: 144
+decimalToBinary Started
+144<type 'int'>
+10010000
+
+result: {'count': '4010', 'source': 'C:\Program Files\Splunk\var\log\splunk\mongod.log'}
+
+result[fields]: 4010
+decimalToBinary Started
+4010<type 'int'>
+111110101010
+
+result: {'count': '675', 'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log'}
+
+result[fields]: 675
+decimalToBinary Started
+675<type 'int'>
+1010100011
+
+result: {'count': '442', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log'}
+
+result[fields]: 442
+decimalToBinary Started
+442<type 'int'>
+110111010
+
+result: {'count': '27833', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log'}
+
+result[fields]: 27833
+decimalToBinary Started
+27833<type 'int'>
+110110010111001
+
+result: {'count': '4506', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log'}
+
+result[fields]: 4506
+decimalToBinary Started
+4506<type 'int'>
+1000110011010
+
+result: {'count': '7649', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log'}
+
+result[fields]: 7649
+decimalToBinary Started
+7649<type 'int'>
+1110111100001
+
+result: {'count': '828', 'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log'}
+
+result[fields]: 828
+decimalToBinary Started
+828<type 'int'>
+1100111100
+
+result: {'count': '6716', 'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log'}
+
+result[fields]: 6716
+decimalToBinary Started
+6716<type 'int'>
+1101000111100
+
+result: {'count': '136', 'source': 'C:\Program Files\Splunk\var\log\watchdog\watchdog.log'}
+
+result[fields]: 136
+decimalToBinary Started
+136<type 'int'>
+10001000
+
+process_events() Started
+results: [{'count': '34', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\conf.log'}, {'count': '9181', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log'}, {'count': '2', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log'}, {'count': '160113', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log'}, {'count': '144', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log.1'}, {'count': '4039', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\mongod.log'}, {'count': '763', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log'}, {'count': '442', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd-utility.log'}, {'count': '28342', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log'}, {'count': '4742', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log'}, {'count': '8020', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log'}, {'count': '857', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log'}, {'count': '6723', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log'}, {'count': '136', 'source': 'C:\\Program Files\\Splunk\\var\\log\\watchdog\\watchdog.log'}]
+dummy results: []
+settings: {'splunkVersion': '7.3.0', 'preview': '0', 'allowStream': '1', 'realtime': '0', 'keywords': '"""index::_internal"" "', 'truncated': '0', 'search': 'search index=_internal | stats count by source | tobinary count', 'sid': '1564827600.2'}
+
+fields: ['count']
+argvals: {}
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\conf.log', 'count': '34'}
+
+result[fields]: 34
+decimalToBinary Started
+34<type 'int'>
+100010
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\health.log', 'count': '9181'}
+
+result[fields]: 9181
+decimalToBinary Started
+9181<type 'int'>
+10001111011101
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log', 'count': '160113'}
+
+result[fields]: 160113
+decimalToBinary Started
+160113<type 'int'>
+100111000101110001
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log.1', 'count': '144'}
+
+result[fields]: 144
+decimalToBinary Started
+144<type 'int'>
+10010000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\mongod.log', 'count': '4039'}
+
+result[fields]: 4039
+decimalToBinary Started
+4039<type 'int'>
+111111000111
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log', 'count': '763'}
+
+result[fields]: 763
+decimalToBinary Started
+763<type 'int'>
+1011111011
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log', 'count': '442'}
+
+result[fields]: 442
+decimalToBinary Started
+442<type 'int'>
+110111010
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log', 'count': '28342'}
+
+result[fields]: 28342
+decimalToBinary Started
+28342<type 'int'>
+110111010110110
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log', 'count': '4742'}
+
+result[fields]: 4742
+decimalToBinary Started
+4742<type 'int'>
+1001010000110
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log', 'count': '8020'}
+
+result[fields]: 8020
+decimalToBinary Started
+8020<type 'int'>
+1111101010100
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log', 'count': '857'}
+
+result[fields]: 857
+decimalToBinary Started
+857<type 'int'>
+1101011001
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log', 'count': '6723'}
+
+result[fields]: 6723
+decimalToBinary Started
+6723<type 'int'>
+1101001000011
+
+result: {'source': 'C:\Program Files\Splunk\var\log\watchdog\watchdog.log', 'count': '136'}
+
+result[fields]: 136
+decimalToBinary Started
+136<type 'int'>
+10001000
+
+process_events() Started
+results: [{'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\conf.log', 'count': '34'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log', 'count': '6949'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log', 'count': '2'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log', 'count': '121747'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log.1', 'count': '144'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\mongod.log', 'count': '4027'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log', 'count': '623'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd-utility.log', 'count': '442'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log', 'count': '27667'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log', 'count': '4460'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log', 'count': '7750'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log', 'count': '837'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log', 'count': '6719'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\watchdog\\watchdog.log', 'count': '136'}]
+dummy results: []
+settings: {'search': 'search index=_internal | stats count by source | tobinary count', 'sid': '1564827637.5', 'truncated': '0', 'keywords': '"""index::_internal"" "', 'realtime': '0', 'allowStream': '1', 'splunkVersion': '7.3.0', 'preview': '1'}
+
+fields: ['count']
+argvals: {}
+
+result: {'count': '34', 'source': 'C:\Program Files\Splunk\var\log\splunk\conf.log'}
+
+result[fields]: 34
+decimalToBinary Started
+34<type 'int'>
+100010
+
+result: {'count': '6949', 'source': 'C:\Program Files\Splunk\var\log\splunk\health.log'}
+
+result[fields]: 6949
+decimalToBinary Started
+6949<type 'int'>
+1101100100101
+
+result: {'count': '2', 'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'count': '121747', 'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log'}
+
+result[fields]: 121747
+decimalToBinary Started
+121747<type 'int'>
+11101101110010011
+
+result: {'count': '144', 'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log.1'}
+
+result[fields]: 144
+decimalToBinary Started
+144<type 'int'>
+10010000
+
+result: {'count': '4027', 'source': 'C:\Program Files\Splunk\var\log\splunk\mongod.log'}
+
+result[fields]: 4027
+decimalToBinary Started
+4027<type 'int'>
+111110111011
+
+result: {'count': '623', 'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log'}
+
+result[fields]: 623
+decimalToBinary Started
+623<type 'int'>
+1001101111
+
+result: {'count': '442', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log'}
+
+result[fields]: 442
+decimalToBinary Started
+442<type 'int'>
+110111010
+
+result: {'count': '27667', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log'}
+
+result[fields]: 27667
+decimalToBinary Started
+27667<type 'int'>
+110110000010011
+
+result: {'count': '4460', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log'}
+
+result[fields]: 4460
+decimalToBinary Started
+4460<type 'int'>
+1000101101100
+
+result: {'count': '7750', 'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log'}
+
+result[fields]: 7750
+decimalToBinary Started
+7750<type 'int'>
+1111001000110
+
+result: {'count': '837', 'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log'}
+
+result[fields]: 837
+decimalToBinary Started
+837<type 'int'>
+1101000101
+
+result: {'count': '6719', 'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log'}
+
+result[fields]: 6719
+decimalToBinary Started
+6719<type 'int'>
+1101000111111
+
+result: {'count': '136', 'source': 'C:\Program Files\Splunk\var\log\watchdog\watchdog.log'}
+
+result[fields]: 136
+decimalToBinary Started
+136<type 'int'>
+10001000
+
+process_events() Started
+results: [{'count': '34', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\conf.log'}, {'count': '9189', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log'}, {'count': '2', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log'}, {'count': '160272', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log'}, {'count': '144', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log.1'}, {'count': '4056', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\mongod.log'}, {'count': '766', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log'}, {'count': '442', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd-utility.log'}, {'count': '28491', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log'}, {'count': '4807', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log'}, {'count': '8121', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log'}, {'count': '866', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log'}, {'count': '6726', 'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log'}, {'count': '136', 'source': 'C:\\Program Files\\Splunk\\var\\log\\watchdog\\watchdog.log'}]
+dummy results: []
+settings: {'splunkVersion': '7.3.0', 'search': 'search index=_internal | stats count by source | tobinary count', 'keywords': '"""index::_internal"" "', 'sid': '1564827637.5', 'realtime': '0', 'preview': '0', 'truncated': '0', 'allowStream': '1'}
+
+fields: ['count']
+argvals: {}
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\conf.log', 'count': '34'}
+
+result[fields]: 34
+decimalToBinary Started
+34<type 'int'>
+100010
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\health.log', 'count': '9189'}
+
+result[fields]: 9189
+decimalToBinary Started
+9189<type 'int'>
+10001111100101
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log', 'count': '2'}
+
+result[fields]: 2
+decimalToBinary Started
+2<type 'int'>
+10
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log', 'count': '160272'}
+
+result[fields]: 160272
+decimalToBinary Started
+160272<type 'int'>
+100111001000010000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log.1', 'count': '144'}
+
+result[fields]: 144
+decimalToBinary Started
+144<type 'int'>
+10010000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\mongod.log', 'count': '4056'}
+
+result[fields]: 4056
+decimalToBinary Started
+4056<type 'int'>
+111111011000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log', 'count': '766'}
+
+result[fields]: 766
+decimalToBinary Started
+766<type 'int'>
+1011111110
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd-utility.log', 'count': '442'}
+
+result[fields]: 442
+decimalToBinary Started
+442<type 'int'>
+110111010
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log', 'count': '28491'}
+
+result[fields]: 28491
+decimalToBinary Started
+28491<type 'int'>
+110111101001011
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log', 'count': '4807'}
+
+result[fields]: 4807
+decimalToBinary Started
+4807<type 'int'>
+1001011000111
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log', 'count': '8121'}
+
+result[fields]: 8121
+decimalToBinary Started
+8121<type 'int'>
+1111110111001
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log', 'count': '866'}
+
+result[fields]: 866
+decimalToBinary Started
+866<type 'int'>
+1101100010
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log', 'count': '6726'}
+
+result[fields]: 6726
+decimalToBinary Started
+6726<type 'int'>
+1101001000110
+
+result: {'source': 'C:\Program Files\Splunk\var\log\watchdog\watchdog.log', 'count': '136'}
+
+result[fields]: 136
+decimalToBinary Started
+136<type 'int'>
+10001000
+
+process_events() Started
+results: [{'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\health.log', 'count': '3336'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\license_usage.log', 'count': '4'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\metrics.log', 'count': '55340'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\scheduler.log', 'count': '5'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd.log', 'count': '108'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_access.log', 'count': '183'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\splunkd_ui_access.log', 'count': '895'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_access.log', 'count': '20'}, {'source': 'C:\\Program Files\\Splunk\\var\\log\\splunk\\web_service.log', 'count': '11'}]
+dummy results: []
+settings: {'keywords': '"""index::_internal"" "', 'splunkVersion': '7.3.0', 'realtime': '0', 'search': 'search index=_internal | stats count by source | tobinary count', 'sid': '1564994138.58', 'preview': '0', 'allowStream': '1', 'truncated': '0'}
+
+fields: ['count']
+argvals: {}
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\health.log', 'count': '3336'}
+
+result[fields]: 3336
+decimalToBinary Started
+3336<type 'int'>
+110100001000
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\license_usage.log', 'count': '4'}
+
+result[fields]: 4
+decimalToBinary Started
+4<type 'int'>
+100
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\metrics.log', 'count': '55340'}
+
+result[fields]: 55340
+decimalToBinary Started
+55340<type 'int'>
+1101100000101100
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\scheduler.log', 'count': '5'}
+
+result[fields]: 5
+decimalToBinary Started
+5<type 'int'>
+101
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd.log', 'count': '108'}
+
+result[fields]: 108
+decimalToBinary Started
+108<type 'int'>
+1101100
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_access.log', 'count': '183'}
+
+result[fields]: 183
+decimalToBinary Started
+183<type 'int'>
+10110111
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\splunkd_ui_access.log', 'count': '895'}
+
+result[fields]: 895
+decimalToBinary Started
+895<type 'int'>
+1101111111
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_access.log', 'count': '20'}
+
+result[fields]: 20
+decimalToBinary Started
+20<type 'int'>
+10100
+
+result: {'source': 'C:\Program Files\Splunk\var\log\splunk\web_service.log', 'count': '11'}
+
+result[fields]: 11
+decimalToBinary Started
+11<type 'int'>
+1011
